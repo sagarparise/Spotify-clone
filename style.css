@@ -35,7 +35,7 @@ body,html{
     background-color: var(--black-color);
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+   overflow-y: scroll;
   
 }
 .sidebar::-webkit-scrollbar
@@ -83,7 +83,7 @@ body,html{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    /* overflow-y: auto; */
+    
    
 }
 .sidebar-library
@@ -111,8 +111,10 @@ body,html{
 .library-img-container
 {
     margin-top: 20px;
+   
 
 }
+
 .library-img,.app-install
 {
     margin-top: 10px;
